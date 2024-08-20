@@ -1,5 +1,5 @@
 // ContactUs.js
-import React from 'react';
+
 import toast, { Toaster } from 'react-hot-toast';
 import './ContactUs.css';
 
@@ -10,7 +10,7 @@ const ContactUs = () => {
             <Toaster />
             <div className="contact-header">
                 <h1>Contact Us</h1>
-                <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, please get in touch with us.</p>
+                <p>We would love to hear from you! Whether you have a question, feedback, or just want to say hello, please get in touch with us.</p>
             </div>
             <div className="contact-form-container">
                 <form className="contact-form">
